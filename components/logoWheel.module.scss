@@ -1,0 +1,27 @@
+.logoWheel {
+    position: absolute;
+    left: calc(50% - 6.25vw);
+    top: -6.25vw;
+    z-index: 10;
+
+    @keyframes wheelRotation {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    img:first-child {
+        will-change: transform;
+        animation: wheelRotation 8s forwards infinite linear;
+    }
+
+    img:nth-child(2) {
+        position: absolute;
+        top: 7vw;
+        left: calc(50% - 3.33vw);
+    }
+}

@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .78vw;
+
+    div {
+        * {
+            cursor: pointer;
+        }
+
+        input {
+            margin-right: .26vw;
+            accent-color: var(--focus-color);
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.header {
+    padding: 1vw 5.21vw;
+    box-shadow: 0 2.92vw 2.6vw -2.08vw rgba(0, 0, 0, 0.25);
+    background-color: var(--primary-color);
+    position: relative;
+    margin-bottom: 8.33vw;
+}
+
+.call_div {
+    display: flex;
+    gap: 2.08vw;   
+    align-items: center;
+}
+
+.phone_div {
+    display: flex;
+    align-items: center;
+    gap: .47vw;
+}
+
+.button {
+    border: none;
+    border-radius: 1.56vw;
+    background-color: var(--focus-color);
+    padding: .52vw 1.04vw;
+}
+
+.button:hover {
+    background: linear-gradient(274.86deg, #FF8825 -0.98%, #FFB77B 66.18%, #FF8825 97.46%);
+    box-shadow: inset 0 .21vw .21vw rgba(0, 0, 0, 0.25);
+}
+
+.span {
+    font-weight: 500;
+}

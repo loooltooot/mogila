@@ -1,0 +1,21 @@
+.img {
+    max-width: 15.63vw;
+    position: absolute;
+    bottom: 10.81vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    span {
+        margin-bottom: .52vw;
+        font-size: var(--m-font-size);
+    }
+
+    h3 {
+        margin-bottom: 1.6vw;
+    }
+}

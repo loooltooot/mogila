@@ -1,0 +1,37 @@
+.card-grid {
+    width: 31vw;
+    padding: 2.6vw 3.13vw 3.39vw;
+    display: grid;
+    grid-template-columns: 13vw 1fr;
+    grid-template-rows: 4.56vw 1fr 1.04vw;
+    grid-template-areas: "img tp" "img ." "img category";
+
+    div.image-wrapper {
+        grid-area: img;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        img {
+            width: max-content;
+            height: max-content;
+            max-width: 13vw;
+            max-height: 13vw;
+            min-width: 10vw;
+            min-height: 10vw;
+        }
+    }
+
+    div.title-price-wrapper {
+        grid-area: tp;
+
+        h3 {
+            text-align: left;
+            max-width: 18vw;
+        }
+    }
+
+    span.product-category {
+        grid-area: category;
+    }
+}

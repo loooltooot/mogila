@@ -1,0 +1,66 @@
+:root {
+    --focus-color: #FF8825;
+    --primary-color: white;
+    --bg-color: #F8F8F8;
+    --shadow: 0 3.18vw 2.6vw -2.6vw rgba(0, 0, 0, 0.1);
+    --base-font-size: .83vw;
+    --x-font-size: 2.5em;
+    --m-font-size: 1.5em;
+}
+
+* {
+    font-size: var(--base-font-size);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h2, h3 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: var(--x-font-size);
+    font-weight: 700;
+}
+
+h3 {
+    font-size: var(--m-font-size);
+    font-weight: 500;
+}
+
+section {
+    padding: 0 18.23vw;
+}
+
+section.margin-top {
+    margin-top: 8.39vw;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    min-width: 18.23vw;
+    min-height: 23.44vw;
+    box-shadow: 0 3.18vw 2.6vw -2.6vw rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color);
+    border-radius: 1.56vw;
+    border: none;
+}
+
+.card:hover {
+    background: linear-gradient(290.62deg, #EAEAEA 1.21%, #FFFFFF 61.93%, #FBFBFB 100%);
+}
+
+#assortiment {
+    margin-top: 10.68vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#filters {
+    margin-top: 1.46vw;
+}

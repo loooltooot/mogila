@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "/img/gyro.png",
+        "title": "Гироскутер \"Два Колеса\"",
+        "price": 3900,
+        "category": "gyro"
+    },
+    {
+        "id": 2,
+        "img": "/img/gyro.png",
+        "title": "Гироскутер \"Два Колеса\" ПРО",
+        "price": 9900,
+        "category": "gyro"
+    },
+    {
+        "id": 3,
+        "img": "/img/scooter.png",
+        "title": "Электросамокат \"Толкачок\"",
+        "price": 8900,
+        "category": "scooter"
+    },
+    {
+        "id": 4,
+        "img": "/img/scooter.png",
+        "title": "Электросамокат \"Толкачок\" Deluxe",
+        "price": 15900,
+        "category": "scooter"
+    },
+    {
+        "id": 5,
+        "img": "/img/segway.png",
+        "title": "Segway T1",
+        "price": 19900,
+        "category": "segway"
+    },
+    {
+        "id": 6,
+        "img": "/img/segway.png",
+        "title": "Segway T3",
+        "price": 39900,
+        "category": "segway"
+    }
+]
