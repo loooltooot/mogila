@@ -1,6 +1,6 @@
 .card {
-    min-width: 39.06vw;
-    min-height: 2.97vw;
+    width: 100%;
+    min-height: 4.53vw;
     padding: .73vw 1.3vw;
 
     h3 {
@@ -11,5 +11,20 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background: none;
+        border: none;
+        padding: 0;
+        margin-bottom: .8vw;
+    }
+
+    .img {
+        transition: transform .3s ease-in;
+        will-change: transform;
+        width: 1.3vw;
+        height: 1.3vw;
+
+        &.show {
+            transform: rotate(180deg);
+        }
     }
 }

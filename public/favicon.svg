@@ -1,0 +1,24 @@
+<svg width="520" height="520" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_50_48)">
+<g filter="url(#filter0_d_50_48)">
+<circle cx="259.5" cy="260.5" r="260.5" fill="white"/>
+<circle cx="259.5" cy="260.5" r="228.5" stroke="#FF2525" stroke-width="64" stroke-dasharray="500 200"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_50_48" x="-21" y="0" width="561" height="572" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="15" operator="erode" in="SourceAlpha" result="effect1_dropShadow_50_48"/>
+<feOffset dy="31"/>
+<feGaussianBlur stdDeviation="17.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_50_48"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_50_48" result="shape"/>
+</filter>
+<clipPath id="clip0_50_48">
+<rect width="520" height="520" fill="white"/>
+</clipPath>
+</defs>
+</svg>

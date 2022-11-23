@@ -8,23 +8,23 @@ export default function BrandsSection() {
                 <Image 
                     src='/img/smart.png'
                     alt='Smart Balance'
-                    width={550}
+                    width={550} 
                     height={369}
-                    style={{width: '22.92vw', height: '15.38vw'}}
+                    style={{width: '28.65vw', height: '19.22vw'}}
                 />
                 <Image 
                     src='/img/Airwheel.png'
                     alt='AirWheel'
                     width={637}
                     height={220}
-                    style={{width: '26.54vw', height: '9.17vw'}}
+                    style={{width: '33.18vw', height: '11.46vw'}}
                 />
                 <Image 
                     src='/img/segwaylogo.png'
                     alt='Segway'
                     width={1187}
                     height={327}
-                    style={{width: '49.46vw', height: '13.63vw', margin: '0 auto'}}
+                    style={{width: '61.82vw', height: '17.03vw', margin: '0 auto'}}
                 />
             </div>
         </section>

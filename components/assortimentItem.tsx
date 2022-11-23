@@ -16,8 +16,8 @@ export default function AssortimentItem({img, maxSpeed, avgPrice, category}: IAs
                 alt="electro scooter"
                 className={styles.img}
             />
-            <span>{maxSpeed}</span>
-            <span>{avgPrice}</span>
+            <span>🚀 {maxSpeed}</span>
+            <span>~{avgPrice}</span>
             <h3>{category}</h3>
         </Card>
     )
