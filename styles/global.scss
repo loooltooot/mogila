@@ -40,6 +40,11 @@ section.margin-top {
     margin-top: 8.39vw;
 }
 
+.flex-row-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card {
     width: fit-content;
     height: fit-content;
@@ -57,10 +62,14 @@ section.margin-top {
 
 #assortiment {
     margin-top: 10.68vw;
-    display: flex;
-    justify-content: space-between;
 }
 
 #filters {
     margin-top: 1.46vw;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

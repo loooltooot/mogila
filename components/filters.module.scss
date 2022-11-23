@@ -5,6 +5,9 @@
     gap: .78vw;
 
     div {
+        display: flex;
+        align-items: center;
+
         * {
             cursor: pointer;
         }

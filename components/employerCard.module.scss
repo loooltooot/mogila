@@ -1,0 +1,15 @@
+.card {
+    width: 18.23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 2.6vw;
+
+    img {
+        width: 18.23vw;
+        height: 18.23vw;
+        position: absolute;
+        top: -1.6vw;
+    }
+}

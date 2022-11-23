@@ -1,0 +1,15 @@
+.card {
+    min-width: 39.06vw;
+    min-height: 2.97vw;
+    padding: .73vw 1.3vw;
+
+    h3 {
+        text-align: left;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

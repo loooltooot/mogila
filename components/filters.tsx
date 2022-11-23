@@ -2,14 +2,18 @@ import styles from './filters.module.scss'
 
 interface IFilters {
     onChange: Function
+    sort: string
 }
 
-export default function Filters({onChange}: IFilters) {
-    return (
+export default function Filters({onChange, sort}: IFilters) {
+    return ( 
         <div id='filters'>
             <form className={styles.form}>
                 <div>
-                    <input type="radio" name="category" value='' id='filter-all' onChange={(e) => e.target.checked ? onChange(e.target.value) : ''}/>
+                    {sort 
+                        ? <input type="radio" name="category" value='' id='filter-all' onChange={(e) => e.target.checked ? onChange(e.target.value) : ''}/>
+                        : <input type="radio" checked name="category" value='' id='filter-all' onChange={(e) => e.target.checked ? onChange(e.target.value) : ''}/>
+                    }
                     <label htmlFor="filter-all">все</label>
                 </div>
                 <div>

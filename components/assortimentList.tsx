@@ -2,7 +2,7 @@ import AssortimentItem from "./assortimentItem";
 
 export default function AssortimentList() {
     return (
-        <section id="assortiment">
+        <section id="assortiment" className="flex-row-container">
             <AssortimentItem 
                 img="/img/scooter.png"
                 maxSpeed="40 км/ч"

@@ -10,7 +10,7 @@ export default function ProductsList({products}: IProductsList) {
     return (
         <div className={styles['flex-container']}>
             {products.map((product) => (
-                <ProductCard product={product} />
+                <ProductCard key={product.id} product={product} />
             ))}
         </div>
     )

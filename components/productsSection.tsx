@@ -16,7 +16,7 @@ export default function ProductsSection() {
     return (
         <section id="products" className="margin-top">
             <h2>Наши товары</h2>
-            <Filters onChange={setSort} />
+            <Filters onChange={setSort} sort={sort}/>
             <ProductsList products={sortedProducts} />
         </section>
     )
