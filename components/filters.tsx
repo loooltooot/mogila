@@ -10,6 +10,7 @@ export default function Filters({onChange, sort}: IFilters) {
         <div id='filters'>
             <form className={styles.form}>
                 <div>
+                    {/* Проверяем, установлен ли тип сортировки, если нет, то ставим значение по-умолчанию */}
                     {sort 
                         ? <input type="radio" name="category" value='' id='filter-all' onChange={(e) => e.target.checked ? onChange(e.target.value) : ''}/>
                         : <input type="radio" checked name="category" value='' id='filter-all' onChange={(e) => e.target.checked ? onChange(e.target.value) : ''}/>

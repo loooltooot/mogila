@@ -9,7 +9,10 @@ interface IBenefitCard {
 export default function BenefitSlide({img, title, content}: IBenefitCard) {
     return (
         <div className={styles.item}>
-             <img src={img} className={'img-fluid ' + styles.img} alt="..." />
+            {/* Фон слайда */}
+             <img src={img} className={'img-fluid ' + styles.img} alt="..." /> 
+
+             {/* Контент слайда */}
              <div className={styles.text}>
                 <h3>{title}</h3>
                 <p>

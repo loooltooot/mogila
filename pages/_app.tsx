@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
 				<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet" /> 
                 <link rel="icon" type="image/x-icon" href="favicon.png"></link>
+				{/* Подключаем шрифты и устанавливаем фавикон */}
 			</Head>
 			<Component {...pageProps} />
 		</>

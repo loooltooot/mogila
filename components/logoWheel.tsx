@@ -4,6 +4,7 @@ import styles from './logoWheel.module.scss'
 export default function LogoWheel() {
     return (
         <div className={styles.logoWheel}>
+            {/* Вращающийся фон */}
             <Image 
                 src='/img/wheel.png'
                 alt='wheel'
@@ -18,6 +19,8 @@ export default function LogoWheel() {
                 height={58}
                 style={{width: '6.67vw', height: '3.02vw'}}
             />
+
+            {/* Скрытый заголовок для поисковых роботов */}
             <h1 style={{display: 'none'}}>My-Giro магазин гироскутеров и электросамокатов</h1>
         </div>
     )

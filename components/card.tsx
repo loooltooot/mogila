@@ -4,6 +4,7 @@ interface ICard {
 }
 
 export default function Card({children, className}: ICard) {
+    // Добавляем класс, который был передан
     const classes = 'card ' + (className ?? '')
 
     return (

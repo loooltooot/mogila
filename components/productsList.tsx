@@ -9,6 +9,7 @@ interface IProductsList {
 export default function ProductsList({products}: IProductsList) {
     return (
         <div className={styles['flex-container']}>
+            {/* Перебираем продукты из массива и выводим их */}
             {products.map((product) => (
                 <ProductCard key={product.id} product={product} />
             ))}

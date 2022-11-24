@@ -12,6 +12,7 @@ export default function ProductCard({product}: IProductCard) {
 
     return (
         <Card className={styles['card-grid']}>
+            {/* Фото продукта */}
             <div className={styles['image-wrapper']}>
                 <Image 
                     src={product.img}
@@ -21,6 +22,8 @@ export default function ProductCard({product}: IProductCard) {
                     loading='lazy'
                 />
             </div>
+
+            {/* Контейнер, в котором находятся цена и название продукта */}
             <div className={styles['title-price-wrapper']}>
                 <h3>{product.title}</h3>
                 <span>{product.price} ₽</span>
@@ -30,6 +33,7 @@ export default function ProductCard({product}: IProductCard) {
     )
 }
 
+// Функция для конвертации категории продукта в понятный для человека вид
 function convertCategory(category: string) {
     let convertedCategory = ''
 

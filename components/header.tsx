@@ -7,6 +7,7 @@ export default function Header() {
         <header className={styles.header} id='header'>
             <div className={styles.call_div}>
                 <div className={styles.phone_div}>
+                    {/* Номер телефона и иконка трубки */}
                     <Image 
                         src='/img/phone.svg'
                         alt='phone'
@@ -17,6 +18,8 @@ export default function Header() {
                     />
                     <span className={styles.span}>+7 (8412) 33-33-33</span>
                 </div>
+
+                {/* Кнопка для заказа звонка */}
                 <button className={styles.button}>
                     <span className={styles.span}>позвоните мне</span>
                 </button>

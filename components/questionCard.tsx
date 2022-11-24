@@ -15,6 +15,7 @@ export default function QuestionCard({title, content, id, show}: IQuestionCard) 
 
     return (
         <Card className={styles.card}>
+            {/* Шапка вопроса, при нажатии на которую раскрывается описание вопроса */}
             <button 
                 onClick={() => setSeen(!seen)} 
                 className={styles.header} 

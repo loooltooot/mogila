@@ -1,10 +1,12 @@
 import Filters from "./filters";
 import ProductsList from "./productsList";
-import * as products from '../data/products.json'
+import * as products from '../data/products.json' // Экспортируем JSON файл
 import { useEffect, useMemo, useState } from "react";
 
 export default function ProductsSection() {
     const [sort, setSort] = useState('')
+
+    // Убираем последние два элемента из массива JSON файла, потому что это вспомогательные объекты
     const productsList = Object.values(products).slice(0, -2)
 
     const sortedProducts = useMemo(() => {
