@@ -18,7 +18,7 @@ export default function EmployersList() {
                 <EmployerCard 
                     img="/img/emp-photo-2.png" 
                     name="Имир Дорохов"
-                    occupation="инвалид-колясочник"
+                    occupation="подручный"
                 />
             </div>
         </section>
